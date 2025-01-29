@@ -1,0 +1,142 @@
+/* Global Styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card Styling */
+.card {
+  padding: 2em;
+}
+
+/* Links Styling */
+.read-the-docs {
+  color: #888;
+}
+
+/* Responsive Layout */
+@media (max-width: 1200px) {
+  #root {
+    padding: 1.5rem;
+  }
+
+  .logo {
+    height: 5em;
+    padding: 1em;
+  }
+
+  .card {
+    padding: 1.5em;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For tablets and smaller desktops */
+  #root {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .logo {
+    height: 4.5em;
+    padding: 0.8em;
+  }
+
+  .card {
+    padding: 1em;
+  }
+
+  .read-the-docs {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For mobile devices */
+  #root {
+    padding: 1rem;
+  }
+
+  .logo {
+    height: 4em;
+    padding: 0.6em;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .read-the-docs {
+    font-size: 0.85rem;
+  }
+
+  /* Ensure any flex or grid layout elements adapt well */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  .card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* For very small screens like phones in portrait mode */
+  #root {
+    padding: 0.8rem;
+  }
+
+  .logo {
+    height: 3.5em;
+    padding: 0.5em;
+  }
+
+  .card {
+    padding: 0.8rem;
+  }
+
+  .read-the-docs {
+    font-size: 0.8rem;
+  }
+}
