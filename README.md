@@ -29,7 +29,7 @@ BookHive is a **Book Management System** designed to help you manage and organiz
 
 First, clone the repository to your local machine:
 
-git clone https://github.com/yourusername/BookHive.git
+git clone https://github.com/ManishShettigar253/BookHive.git
 cd BookHive
 
 ### 2. Install Dependencies
